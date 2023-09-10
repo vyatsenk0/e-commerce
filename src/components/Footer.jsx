@@ -15,7 +15,7 @@ const Container = styled.div`
   background-size: cover;
   color: rgb(206, 206, 205);
   padding: 2em;
-  height: fit-content;
+  height: 43vh;
 
   @media only screen and (max-width: 480px) {
     width: 108%;

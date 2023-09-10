@@ -90,7 +90,7 @@ const Amount = styled.span`
     width: 2em;
     height: 2em;
     border-radius: 10px;
-    border: 1px solid teal;
+    border: 2px solid teal;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,9 +180,9 @@ const Product = () => {
                 <Price>${product.price} CAD</Price>
                 <AddContainer>
                     <AmountContainer>
-                        <Remove  style={{ color: 'white'}} onClick={() => handleQuantity("dec")}/>
-                        <Amount  style={{ color: 'white'}} >{quantity}</Amount>
-                        <Add style={{ color: 'white'}} onClick={() => handleQuantity("inc")} />
+                        <Remove  style={{ fontSize: 27, color: 'black'}} onClick={() => handleQuantity("dec")}/>
+                        <Amount  style={{ fontSize: 25, color: 'white'}} >{quantity}</Amount>
+                        <Add style={{ fontSize: 27, color: 'black'}} onClick={() => handleQuantity("inc")} />
                     </AmountContainer>
 
                     {user.currentUser ? (

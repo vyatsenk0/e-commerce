@@ -15,7 +15,7 @@ import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
 const Container = styled.div`
     height: 9vh;
-    background-image: linear-gradient( rgba(255, 0,1,0), #bcb8b8);
+    background-image: linear-gradient(to bottom, rgba(250, 0,0,0), #bebbbb);
     ${mobile({ height: "50px" })}
     
 `
