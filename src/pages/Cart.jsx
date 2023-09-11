@@ -11,6 +11,8 @@ const KEY = ""
 
 const Container = styled.div`
   background: rgb(0, 0, 0);
+  background-image: url("https://wallpapercave.com/wp/wp3569640.jpg");
+  background-size: cover;
   color: rgb(211, 211, 211);
   margin-top: 4em;
 
@@ -30,7 +32,7 @@ const Title = styled.h1`
   font-size: 3rem;
   text-align: center;
   letter-spacing: 0.05em;
-
+  color: white;
   @media only screen and (max-width: 480px) {
     font-size: 2em;
   }
@@ -63,7 +65,8 @@ const Info = styled.div`
 
 const Summary = styled.div`
   flex: 1;
-  background: rgba(126, 116, 116, 0.3);
+  background: rgba(21, 19, 19, 0.7);
+  
   height: fit-content;
   padding: 1em;
   margin: 1em 0;
@@ -74,14 +77,17 @@ const Summary = styled.div`
 const ButtonTop = styled.button`
   text-transform: uppercase;
   font-size: 1em;
+  font-weight: 600;
+  
   padding: 0.5em 1em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 
   &:first-child {
-    background: transparent;
+    
     color: rgb(230, 230, 230);
+    background: rgba(19, 15, 15, 0.3);
     border: 1px solid rgb(230, 230, 230);
   }
   &:first-child:hover {
@@ -90,6 +96,7 @@ const ButtonTop = styled.button`
   &:last-child {
     background: transparent;
     color: rgb(185, 127, 20);
+    background: rgba(19, 15, 15, 0.3);
     border: 1px solid rgb(185, 127, 20);
   }
   &:last-child:hover {
@@ -127,7 +134,7 @@ const Image = styled.img`
 `;
 
 const Details = styled.div`
-  color: rgb(168, 168, 168);
+  color: white;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -161,7 +168,7 @@ const ProductBrand = styled.span`
 
 
 const ProductId = styled.span`
-  color: rgb(117, 117, 117);
+   color: white;
   font-size: 0.9em;
   margin: 0.5em 0;
 
@@ -191,7 +198,8 @@ const PriceDetail = styled.div`
 
 const ProductPrice = styled.span`
   font-size: 1.5em;
-  color: rgb(188, 182, 182);
+  font-weight: 500;
+  color: white;
   margin-top: 1em;
 `;
 
@@ -281,8 +289,10 @@ const DeleteButton = styled.button`
   border-radius: 5px;
   cursor: pointer;
   background: transparent;
-  color: rgb(230, 230, 230);
-  border: 1px solid rgb(170, 170, 170);
+  color: rgba(181, 41, 41, 0.8);
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(7, 7, 7, 0.5);
 
   &:hover {
     background: rgba(163, 162, 162, 0.3);
