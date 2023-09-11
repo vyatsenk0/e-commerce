@@ -14,6 +14,7 @@ import { ShoppingCartOutlined } from "@mui/icons-material";
 
 const Container = styled.div`
     background-image: url("https://wallpapercave.com/wp/wp3569640.jpg");
+    background-size: cover;
 `
 
 const Wrapper = styled.div`

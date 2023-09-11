@@ -14,7 +14,8 @@ const Container = styled.div`
   background-image: url("https://wallpapercave.com/wp/wp3569640.jpg");
   background-size: cover;
   color: rgb(211, 211, 211);
-  margin-top: 4em;
+ 
+  
 
   @media only screen and (max-width: 480px) {
     width: 117%;
