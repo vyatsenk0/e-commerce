@@ -60,7 +60,7 @@ const Button = styled.button`
 
 const Container = styled.div`
     flex: 1;
-    border: 2px solid rgba(78, 78, 212, 0.5);
+    border: 2px solid rgba(165, 165, 165, 0.5);
     margin-top: 2em;
     margin-left: 2.5em;
     width: 25em;
